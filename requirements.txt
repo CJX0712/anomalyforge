@@ -1,0 +1,12 @@
+# AnomalyForge 运行时依赖（版本锁定，与 requirements.lock.txt 对齐）
+# 作者：晨星
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+pyod==3.6.6
+
+# 可选：auto_encoder 检测器需要 torch（CPU 版即可）
+# torch>=2.0
+
+# 开发/测试
+pytest>=8.0
